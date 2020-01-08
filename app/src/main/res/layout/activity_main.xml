@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/notiImgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지 노티" />
+
+    <Button
+        android:id="@+id/notiManyTxtBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="만은 글자의 노티" />
+
+    <Button
+        android:id="@+id/notiInboxBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인박스 노티" />
+
+</LinearLayout>
